@@ -11,7 +11,7 @@ tasks:
     tasks:
       generate:
         aliases:
-          -make migration
+          -make-migration
         desc: "Generate code from proto files"
         cmds:
           - go run ./cmd/migrator --storage-path=./storage/sso.db --migrations-path=./migrations
